@@ -1,1 +1,8 @@
-spring.application.name=board-optimize
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/slow_board
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 1234
+  jpa:
+    show-sql: true
