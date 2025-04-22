@@ -20,7 +20,7 @@ class PostService(
         )
 
         return postRepository.findByBoardId(
-            boardId = 0,
+            boardId = boardId,
             pageable = pageable
         )
     }
